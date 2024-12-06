@@ -1,0 +1,45 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How weather changes in Washington DC?</title>
+  <link rel="stylesheet" href="shailyro.css">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3-lasso@2.0.1/dist/d3-lasso.min.js"></script>
+</head>
+<body>
+
+
+      
+  <div id="visualization-container">
+    <h1 id="title">How weather changes in Washington DC?</h1>
+    <h2>Homework- 4 : D3 Customization</h2>
+    <h3>By Shaily Roy (shailyro)</h3>
+    <div id="controls">
+        <div id="y-axis-dropdown-container" style="text-align: center; margin: 10px 0;">
+            <label for="y-axis-dropdown">Select Y-axis Attribute: </label>
+            <select id="y-axis-dropdown">
+              <option value="temp">Temperature</option>
+              <option value="humidity">Humidity</option>
+              <option value="precip">Precipitation</option>
+            </select>
+          </div>
+          
+      <div id="year-slider-container">
+        <label for="year-slider">Filter by Year:</label>
+        <input type="range" id="year-slider" min="2015" max="2025" step="1" value="2025">
+        <span id="year-value">All Years</span>
+      </div>
+    </div>
+    <div id="chart"></div>
+    <div id="legend"></div> <!-- Dedicated legend container -->
+    <div id="lollipop-chart"></div>
+    <div id="tooltip" class="hidden"></div>
+    <div id="yearly-graphs"></div>
+  </div>
+  <script src="shailyro.js"></script>
+</body>
+</html>
