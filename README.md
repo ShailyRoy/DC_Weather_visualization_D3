@@ -2,8 +2,7 @@
 # Custom Visualization: How Weather Changes in Washington DC?
 
 **Author:** Shaily Roy  
-**ASURITE ID:** shailyro  
-**Email:** shailyro@asu.edu  
+
 **Course:** Homework #4: Custom Visualization in D3.js  
 
 ---
